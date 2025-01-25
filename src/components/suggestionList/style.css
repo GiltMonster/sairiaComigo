@@ -1,0 +1,34 @@
+.suggestions-list {
+  margin: 20px 0;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-height: 200px;
+  overflow: auto;
+
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.remove{
+    background-color: #a72b2b;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
